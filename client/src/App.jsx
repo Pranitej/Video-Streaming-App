@@ -4,7 +4,7 @@ import { FaUpload, FaMoon, FaSun, FaEdit, FaTrash } from "react-icons/fa";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-const BASE_URL = "http://localhost:5000/api/videos";
+const BASE_URL = "https://stream-verse.up.railway.app/api/videos";
 
 function Home() {
   const [videos, setVideos] = useState([]);
